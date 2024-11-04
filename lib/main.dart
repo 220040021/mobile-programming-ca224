@@ -1,23 +1,30 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'package:myapp/pages/main_page.dart';
+import 'package:myapp/resources/colors.dart';
+import 'package:myapp/resources/strings.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-// Membuat root widget MyApp
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'CA224 App',
       debugShowCheckedModeBanner: false,
+      title: appName,
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: primaryColor,
+          secondary: secondaryColor,
+        ),
+        useMaterial3: true,
+        fontFamily: 'Poppins',
       ),
-      home: const HomePage(),
+      home: const MainPage(),
     );
   }
 }
