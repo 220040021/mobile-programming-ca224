@@ -1,6 +1,6 @@
-# myapp
+# IRVANDANI (220040021)
 
-A new Flutter project.
+! [alt text](https://github.com/220040021/mobile-programming-ca224/blob/pertemuan02/assets/02.png?raw=true)
 
 ## Getting Started
 
