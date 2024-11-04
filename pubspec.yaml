@@ -88,3 +88,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+  assets:
+    - Screenshot 2024-10-01 004855.png
+    - Screenshot 2024-09-30 094220.png
+    - WhatsApp Image 2024-10-28 at 12.32.39.jpeg
+    - WhatsApp Image 2024-10-28 at 12.32.40 (1).jpeg
+    - WhatsApp Image 2024-10-28 at 12.32.40.jpeg
+    - WhatsApp Image 2024-10-28 at 13.00.37 (1).jpeg
+    - WhatsApp Image 2024-10-28 at 13.00.37.jpeg
