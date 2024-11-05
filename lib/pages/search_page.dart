@@ -7,13 +7,13 @@ class SearchPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Generate a list of PostItems (replace with real data as needed)
-    final listPostItems = List.generate(14, (index) => const PostItem());
+    final listPostItems = List.generate(12, (index) => const PostItem());
 
     return Scaffold(
       appBar: AppBar(
         title: Container(
           height: 36,
-          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+          padding: const EdgeInsets.symmetric(horizontal: 17.0),
           decoration: BoxDecoration(
             color: Colors.grey[200],
             borderRadius: BorderRadius.circular(8.0),
@@ -23,23 +23,23 @@ class SearchPage extends StatelessWidget {
               Icon(Icons.search, color: Colors.grey),
               SizedBox(width: 8),
               Text(
-                'Search',
+                'Cari moment....',
                 style: TextStyle(color: Colors.grey, fontSize: 16),
               ),
             ],
           ),
         ),
         backgroundColor: Colors.white,
-        elevation: 0,
+        elevation: 5,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(4.0),
+        padding: const EdgeInsets.all(16.5),
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2, // Three columns for grid layout
-            crossAxisSpacing: 4.0,
-            mainAxisSpacing: 4.0,
-            childAspectRatio: 1.0, // Ensures square aspect for images
+            crossAxisSpacing: 1,
+            mainAxisSpacing: 8,
+            childAspectRatio: 1, // Ensures square aspect for images
           ),
           itemCount: listPostItems.length,
           itemBuilder: (context, index) {
