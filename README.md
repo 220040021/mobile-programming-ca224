@@ -1,6 +1,7 @@
 # IRVANDANI (220040021)
 
-[A new Flutter project.](https://github.com/220040021/mobile-programming-ca224/blob/Pertemuan03/assets/03.png)
+![03](https://github.com/user-attachments/assets/9387422d-7b7e-4562-8cbc-9df9c05e5d1f)
+
 
 ## Getting Started
 
