@@ -1,5 +1,7 @@
 # IRVANDANI (220040021)
-[A new Flutter project.](https://github.com/220040021/mobile-programming-ca224/blob/tugas_pertemuan03/lib/assets/Screenshot%202024-10-29%20090227.png)
+
+![Screenshot 2024-10-29 090227](https://github.com/user-attachments/assets/124aed8d-1ce1-4b95-8773-a6fa2f2a5f4a)
+
 
 ## Getting Started
 
